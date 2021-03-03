@@ -1,0 +1,11 @@
+#contacts {
+    text-align:center;
+    margin: 10px, 40px;
+}
+#contacts ul {
+    list-style: none;
+    display: inline-block;
+}
+#contacts li {
+    display: inline;
+}

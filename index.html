@@ -1,23 +1,52 @@
 <html>
 	<head>
 		<meta charset='utf-8'>
-		<title>joko's portfolio</title>
-		<link rel="stylesheet" type="text/css" type="css/syle.css">
+		<title>joko</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/site-title.css">
+		<link rel="stylesheet" type="text/css" href="css/header.css">
+		<link rel="stylesheet" type="text/css" href="css/contacts.css">
+		<script src="https://kit.fontawesome.com/368b8929ef.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<header>
-			<h1 class="headline">
-				<a>Joko's portfolio</a>
-			</h1>
+			<figure id="header-icon"><img src="img/icon.png"></figure>
+			<div id="header-title">
+				<h1>
+					Joko
+				</h1>
+				<p>@4_va6</p>
+			</div>
+			<nav>
+				<ul id="header-list">
+					<li><a href="#profile">profile</a></li>
+					<li><a href="#works">works</a></li>
+					<li><a href="#activity">activity</a></li>
+				</ul>
+			</nav>
 		</header>
 
-		<div class="title-main">
-			<h1>Joko's portfolio</h1>
-			<h2>へっぽこプログラマー</h2>
+		<div id="site-title">
+			<h1 id="site-title-main">JOKO'S PORTFOLIO </h1>
+			<h2 id="site-title-sub">こんにちは</h2>
 		</div>
 
-		<div class="profile">
-			<h2>Profile</h2>
+		<div id="contacts">
+			<ul id="contacts-list">
+				<li>
+					<i class="fab fa-github-alt fa-3x"></i>
+				</li>
+				<li>
+					<i class="fab fa-twitter fa-3x"></i>
+				</li>
+				<li>
+					<i class="fas fa-envelope fa-3x"></i>
+				</li>
+			</ul>
+		</div>
+
+		<div id="profile">
+			<h2 class="section-title">Profile</h2>
 			<ul>
 				<li>静岡大学 情報学部情報科学科B3(23卒)</li>
 				<li>2000/04/13生まれ</li>
@@ -26,8 +55,8 @@
 			</ul>
 		</div>
 
-		<div class="works">
-			<h2>Works</h2>
+		<div id="works">
+			<h2 class="section-title">Works</h2>
 			<ul>
 				<li>
 					<h3>VR Speed Run</h3>
@@ -38,17 +67,10 @@
 				</li>
 			</ul>
 		</div>
-		<div class="activity">
+		<div id="activity">
+			<h2 class="section-title">Activity</h2>
 			<ul>
 				<li>基本情報技術者試験 合格</li>
-			</ul>
-		</div>
-		<div class="contacts">
-			<ul>
-				<li class="github"></li>
-				<li class="twitter"></li>
-				<li class="mail"></li>
-				<li class="hatena"></li>
 			</ul>
 		</div>
 	</body>
