@@ -14,3 +14,10 @@ header {
     font-size: 10px;
     color: white;
 }
+
+#portfolio-main {
+    margin: 20px;
+}
+.section-title{
+    border-bottom: 3px solid rgb(0, 178, 209);
+}

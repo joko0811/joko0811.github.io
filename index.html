@@ -1,57 +1,72 @@
 <html>
-	<head>
-		<meta charset='utf-8'>
-		<title>joko</title>
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<link rel="stylesheet" type="text/css" href="css/site-title.css">
-		<link rel="stylesheet" type="text/css" href="css/header.css">
-		<link rel="stylesheet" type="text/css" href="css/contacts.css">
-		<script src="https://kit.fontawesome.com/368b8929ef.js" crossorigin="anonymous"></script>
-	</head>
-	<body>
-		<header>
-			<figure id="header-icon"><img src="img/icon.png"></figure>
-			<div id="header-title">
-				<h1>
-					Joko
-				</h1>
-				<p>@4_va6</p>
-			</div>
-			<nav>
-				<ul id="header-list">
-					<li><a href="#profile">profile</a></li>
-					<li><a href="#works">works</a></li>
-					<li><a href="#activity">activity</a></li>
-				</ul>
-			</nav>
-		</header>
 
-		<div id="site-title">
-			<h1 id="site-title-main">JOKO'S PORTFOLIO </h1>
-			<h2 id="site-title-sub">こんにちは</h2>
+<head>
+	<meta charset='utf-8'>
+	<title>joko</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/portfolio-title.css">
+    <link rel="stylesheet" type="text/css" href="css/portfolio-main.css">
+	<script src="https://kit.fontawesome.com/368b8929ef.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header>
+		<figure id="header-icon"><img src="img/icon.png"></figure>
+		<div id="header-title">
+			<h1>
+				Joko
+			</h1>
+			<p>@4_va6</p>
 		</div>
-
+		<nav>
+			<ul id="header-list">
+				<li><a href="#profile">profile</a></li>
+				<li><a href="#works">works</a></li>
+				<li><a href="#activity">activity</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<div id="portfolio-title">
+		<img src="img/title.png">
 		<div id="contacts">
-			<ul id="contacts-list">
+			<ul>
 				<li>
-					<i class="fab fa-github-alt fa-3x"></i>
+					<a href="https://github.com/joko0811" target="_blank" title="Github">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-circle fa-stack-2x"></i>
+							<i class="fab fa-github-alt fa-stack-1x fa-inverse"></i>
+						</span>
+					</a>
 				</li>
 				<li>
-					<i class="fab fa-twitter fa-3x"></i>
+					<a href="https://twitter.com/4_va6" target="_blank" title="Twitter">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-circle fa-stack-2x"></i>
+							<i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+						</span>
+					</a>
 				</li>
 				<li>
-					<i class="fas fa-envelope fa-3x"></i>
+					<a href="mailto:perry_0096@docomo.ne.jp" title="mail adress">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-circle fa-stack-2x"></i>
+							<i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+						</span>
+					</a>
 				</li>
 			</ul>
 		</div>
-
+	</div>
+	
+	<div id=portfolio-main>
 		<div id="profile">
 			<h2 class="section-title">Profile</h2>
 			<ul>
 				<li>静岡大学 情報学部情報科学科B3(23卒)</li>
 				<li>2000/04/13生まれ</li>
-				<li>静岡大学漕艇部 所属</li>
-				<li>最近は馬の娘にお熱</li>
+				<li>漕艇部所属</li>
 			</ul>
 		</div>
 
@@ -60,10 +75,25 @@
 			<ul>
 				<li>
 					<h3>VR Speed Run</h3>
-
+					<a href="https://github.com/joko0811/JoyConJog" target="_blank">
+						<figure>
+							<div class="img-trim">
+								<img src="img/vrspeedrun-play.png">
+							</div>
+							<figcaption>VR空間をjoyconの加速度を用いて走るゲームです</figcaption>
+						</figure>
+					</a>
 				</li>
 				<li>
-					<h3>Shiha's Great Adventure</h3>
+					<h3>Shiha GO</h3>
+					<a href="https://github.com/joko0811/Shiha" target="_blank">
+						<figure>
+							<div class="img-trim">
+								<img src="img/shiha-play.png">
+							</div>
+							<figcaption>音声で操作する横スクロールゲームです</figcaption>
+						</figure>
+					</a>
 				</li>
 			</ul>
 		</div>
@@ -73,5 +103,7 @@
 				<li>基本情報技術者試験 合格</li>
 			</ul>
 		</div>
-	</body>
+	</div>
+</body>
+
 </html>

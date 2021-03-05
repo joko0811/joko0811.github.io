@@ -1,0 +1,33 @@
+#portfolio-title {
+    position: relative;
+    margin: 5px;
+}
+#portfolio-title img{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    object-fit: cover;
+}
+
+#contacts {
+    position: absolute;
+    bottom: 25%;
+    width: 100%;
+    text-align: center;
+}
+#contacts ul {
+    list-style: none;
+    display: inline-block;
+}
+#contacts li {
+    display: inline;
+    margin: 0px 25px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts .fa-stack{
+    color: black;
+    cursor: pointer;
+}

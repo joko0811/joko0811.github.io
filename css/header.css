@@ -20,8 +20,8 @@
 #header-list li {
     list-style: none;
     float: left;
-    font-size: 5px;
-    margin: 17px 3px 3px 3px;
+    font-size: 15px;
+    margin: 10px 4px;
 }
 #header-list a{
     color: white;
