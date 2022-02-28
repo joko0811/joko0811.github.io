@@ -1,12 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import Header from './components/header';
+import { StyledEngineProvider } from '@mui/material/styles';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <StyledEngineProvider injectFirst>
       <Header />
+  </StyledEngineProvider>
 
       {/*
       <header className="App-header">

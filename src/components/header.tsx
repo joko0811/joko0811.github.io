@@ -32,20 +32,12 @@ export default function ComplexGrid() {
         </Grid>
         <Grid item xs={12} sm container>
           <Grid item xs container direction="column" spacing={2}>
-            <Grid item xs>
-              <Typography gutterBottom variant="subtitle1" component="div">
-                Standard license
-              </Typography>
-              <Typography variant="body2" gutterBottom>
-                Full resolution 1920x1080 • JPEG
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                ID: 1030114
-              </Typography>
-            </Grid>
+            <Typography gutterBottom variant="h1" component="div">
+              joko's portfolio
+            </Typography>
             <Grid item>
               <Typography sx={{ cursor: 'pointer' }} variant="body2">
-                Remove
+                hoge
               </Typography>
             </Grid>
           </Grid>
@@ -57,5 +49,6 @@ export default function ComplexGrid() {
         </Grid>
       </Grid>
     </Paper>
+
   );
 }
