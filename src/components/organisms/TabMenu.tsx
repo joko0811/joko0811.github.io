@@ -3,6 +3,7 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import Profile from "./Profile";
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -54,7 +55,7 @@ function Accounts() {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        profile
+        <Profile />
       </TabPanel>
       <TabPanel value={value} index={1}>
         Works
