@@ -4,8 +4,6 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import Divider from "@mui/material/Divider";
-import Avatar from "@mui/material/Avatar";
-import { grey } from "@mui/material/colors";
 
 function Accounts() {
   return (
