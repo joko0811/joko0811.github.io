@@ -1,5 +1,5 @@
 import React from "react";
-import IdentityShowcase from "./components/organisms/IdentityShowcase";
+import Portfolio from "./components/pages/Portfolio";
 import Container from "@mui/material/Container";
 import { StyledEngineProvider } from "@mui/material/styles";
 import "./App.css";
@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
       <StyledEngineProvider injectFirst>
-        <Container maxWidth="md">
-          <IdentityShowcase />
+        <Container maxWidth="lg">
+          <Portfolio />
         </Container>
       </StyledEngineProvider>
     </div>
