@@ -2,10 +2,11 @@
 name: Release GitHub Page
 
 # 起動のタイミング
-# 今回はmasterブランチへのpush
 on:
   push:
     branches:
+      - master
+    pull_request:
       - master
 
 # ジョブの定義
