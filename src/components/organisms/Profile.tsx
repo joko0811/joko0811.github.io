@@ -4,7 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
-import overviewPic from "../images/joko.jpg";
+import profilePic from "../images/joko.jpg";
 
 function Profile() {
   return (
@@ -12,8 +12,8 @@ function Profile() {
       <Card sx={{ width: 600 }}>
         <CardMedia
           component="img"
-          height="800"
-          image={overviewPic}
+          height="700"
+          image={profilePic}
           alt="詳細情報"
         />
         <CardContent>
