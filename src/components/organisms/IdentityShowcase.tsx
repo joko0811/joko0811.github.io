@@ -4,9 +4,9 @@ import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import Accounts from "../molecules/Accounts";
 
-export default function ComplexGrid() {
+export default function IdentityShowcase() {
   return (
-    <Stack direction="row" justifyContent="center" spacing={2} sx={{ py: 5 }}>
+    <Stack direction="row" justifyContent="center" spacing={2} sx={{ py: 10 }}>
       <Avatar
         alt="logo"
         src={`${process.env.PUBLIC_URL}/hoku.png`}
