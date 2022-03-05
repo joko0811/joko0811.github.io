@@ -12,7 +12,7 @@ function Profile() {
       <Card sx={{ width: 600 }}>
         <CardMedia
           component="img"
-          height="300"
+          height="800"
           image={overviewPic}
           alt="詳細情報"
         />
