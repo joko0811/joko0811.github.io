@@ -5,6 +5,7 @@ import Box from "@mui/material/Box";
 import TabPanel from "../molecules/TabPanel";
 import Profile from "./Profile";
 import Works from "./Works";
+import ActivityColumn from "./AcvitityColumn";
 
 export default function TabMenu() {
   const [value, setValue] = React.useState(0);
@@ -29,7 +30,7 @@ export default function TabMenu() {
         <Works />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Activity
+        <ActivityColumn />
       </TabPanel>
     </Box>
   );

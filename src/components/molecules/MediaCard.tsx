@@ -34,8 +34,8 @@ const MediaCard: React.FC<Props> = ({ mediaCard }) => (
     </CardContent>
     <Grid container spacing={1} sx={{ padding: 1 }}>
       {mediaCard.tips.map((tips) => (
-        <Grid item>
-          <Chip key={tips} label={tips} variant="outlined" />
+        <Grid item key={tips}>
+          <Chip label={tips} variant="outlined" />
         </Grid>
       ))}
     </Grid>
