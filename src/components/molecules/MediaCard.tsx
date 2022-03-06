@@ -4,46 +4,42 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import Chip from "@mui/material/Chip";
-import Stack from "@mui/material/Stack";
+import Grid from "@mui/material/Grid";
+import MediaCardProps from "../../type/MediaCardProps";
 
-interface Production {
-  imagePath: string;
-  imageHeight: number;
-  title: string;
-  description: string;
-  usedSkil: string[];
+interface Props {
+  mediaCard: MediaCardProps;
 }
 
-export default function MediaCard(props: Production) {
-  const { imagePath, imageHeight, title, description, usedSkil, ...other } =
-    props;
+const MediaCard: React.FC<Props> = ({ mediaCard }) => (
+  <Card sx={{ width: mediaCard.cardWidth }}>
+    <CardMedia
+      component="img"
+      height={mediaCard.imageHeight}
+      image={require(`../../img/${mediaCard.imagePath}`)}
+      alt={mediaCard.title}
+    />
+    <CardContent>
+      <Typography gutterBottom variant="h5" component="h1" align="left">
+        {mediaCard.title}
+      </Typography>
+      <Typography
+        variant="body2"
+        component="span"
+        color="text.secondary"
+        align="left"
+      >
+        {mediaCard.description}
+      </Typography>
+    </CardContent>
+    <Grid container spacing={1} sx={{ padding: 1 }}>
+      {mediaCard.tips.map((tips) => (
+        <Grid item>
+          <Chip key={tips} label={tips} variant="outlined" />
+        </Grid>
+      ))}
+    </Grid>
+  </Card>
+);
 
-  return (
-    <Card sx={{ width: 600 }}>
-      <CardMedia
-        component="img"
-        height={imageHeight}
-        image={require(imagePath)}
-        alt={title}
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="h1" align="left">
-          {title}
-        </Typography>
-        <Typography
-          variant="body2"
-          component="span"
-          color="text.secondary"
-          align="left"
-        >
-          {description}
-        </Typography>
-      </CardContent>
-      <Stack direction="row">
-        {usedSkil.map((usedSkil) => (
-          <Chip label={usedSkil} variant="outlined" />
-        ))}
-      </Stack>
-    </Card>
-  );
-}
+export default MediaCard;
