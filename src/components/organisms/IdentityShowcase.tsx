@@ -9,7 +9,7 @@ export default function IdentityShowcase() {
     <Stack direction="row" justifyContent="center" spacing={2} sx={{ py: 10 }}>
       <Avatar
         alt="logo"
-        src={`${process.env.PUBLIC_URL}/hoku.png`}
+        src={`${process.env.PUBLIC_URL}/logo377.png`}
         sx={{ width: 128, height: 128, boxShadow: 1 }}
       />
       <Stack spacing={2}>

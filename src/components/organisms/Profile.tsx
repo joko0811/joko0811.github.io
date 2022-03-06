@@ -4,7 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
-import profilePic from "../images/joko.jpg";
+import profilePic from "../../img/profile.jpg";
 
 function Profile() {
   return (

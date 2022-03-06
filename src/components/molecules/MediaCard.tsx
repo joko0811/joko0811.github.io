@@ -5,25 +5,26 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
-import profilePic from "../images/joko.jpg";
 
 interface Production {
   imagePath: string;
+  imageHeight: number;
   title: string;
   description: string;
   usedSkil: string[];
 }
 
 export default function MediaCard(props: Production) {
-  const { imagePath, title, description, usedSkil, ...other } = props;
+  const { imagePath, imageHeight, title, description, usedSkil, ...other } =
+    props;
 
   return (
     <Card sx={{ width: 600 }}>
       <CardMedia
         component="img"
-        height="280"
-        image={profilePic}
-        alt="詳細情報"
+        height={imageHeight}
+        image={require(imagePath)}
+        alt={title}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="h1" align="left">
