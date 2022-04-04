@@ -3,7 +3,7 @@ import MediaCardProps from "../type/MediaCardProps";
 const workList: MediaCardProps[] = [
   {
     imagePath: "portfolio.png",
-    imageHeight: 140,
+    imageHeight: 160,
     cardWidth: 345,
     title: "portfolio",
     description:
@@ -12,7 +12,7 @@ const workList: MediaCardProps[] = [
   },
   {
     imagePath: "VRSpeedRun.png",
-    imageHeight: 140,
+    imageHeight: 160,
     cardWidth: 345,
     title: "VR Speed Run",
     description:
@@ -21,7 +21,7 @@ const workList: MediaCardProps[] = [
   },
   {
     imagePath: "shihaGO.png",
-    imageHeight: 140,
+    imageHeight: 160,
     cardWidth: 345,
     title: "Shiha GO",
     description:
@@ -30,7 +30,7 @@ const workList: MediaCardProps[] = [
   },
   {
     imagePath: "brilliantExtension.png",
-    imageHeight: 140,
+    imageHeight: 160,
     cardWidth: 345,
     title: "Brilliant diamond extension",
     description:
@@ -39,7 +39,7 @@ const workList: MediaCardProps[] = [
   },
   {
     imagePath: "profile.jpg",
-    imageHeight: 140,
+    imageHeight: 160,
     cardWidth: 345,
     title: "QueueuQ",
     description: "[開発中] Webサイトのリーディングリストです",
