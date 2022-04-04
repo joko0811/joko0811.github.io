@@ -14,7 +14,7 @@ interface Props {
 }
 
 const ActivityTimeline: React.FC<Props> = ({ activityList }) => (
-  <Container maxWidth="sm">
+  <Container maxWidth="lg">
     <Timeline position="right">
       {activityList.map((activity) => (
         <TimelineItem key={activity.name}>
