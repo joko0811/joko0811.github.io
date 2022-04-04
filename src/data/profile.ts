@@ -6,7 +6,7 @@ const profile: MediaCardProps = {
   cardWidth: 600,
   title: "Profile",
   description:
-    "静岡大学情報学部 情報科学科 大木研究室<br />好きなもの：馬の娘，hhkb<br />",
+    "静岡大学情報学部 情報科学科 大木研究室 \n 好きなもの：馬の娘，hhkb",
   tips: [],
 };
 
