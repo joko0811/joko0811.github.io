@@ -25,7 +25,7 @@ const workList: MediaCardProps[] = [
     cardWidth: 345,
     title: "Shiha GO",
     description:
-      "自身の声で操作する横スクロールアクションゲームです \n https://github.com/joko0811/Siha",
+      "自身の声で操作する横スクロールゲームです \n https://github.com/joko0811/Siha",
     tips: ["C#", "Unity"],
   },
   {
@@ -34,7 +34,7 @@ const workList: MediaCardProps[] = [
     cardWidth: 345,
     title: "Brilliant diamond extension",
     description:
-      "検索定型文の作製・共有を行えるGoogle検索支援ツールです \n https://github.com/ryama13572/brilliant_diamond_extension",
+      "検索定型文の作製・共有を行えるツールです \n https://github.com/ryama13572/brilliant_diamond_extension",
     tips: ["Vue", "JavaScript"],
   },
   {
