@@ -20,7 +20,7 @@ const workList: MediaCardProps[] = [
     tips: ["C#", "Unity"],
   },
   {
-    imagePath: "profile.jpg",
+    imagePath: "shihaGO.png",
     imageHeight: 140,
     cardWidth: 345,
     title: "Shiha GO",
@@ -29,7 +29,7 @@ const workList: MediaCardProps[] = [
     tips: ["C#", "Unity"],
   },
   {
-    imagePath: "",
+    imagePath: "brilliantExtension.png",
     imageHeight: 140,
     cardWidth: 345,
     title: "Brilliant diamond extension",
