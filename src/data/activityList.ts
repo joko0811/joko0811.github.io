@@ -53,6 +53,14 @@ const activityList: Activity[] = [
     day: "2021/09/06",
     name: "ココネ株式会社様, インターン参加",
   },
+  {
+    day: "2021/10/26",
+    name: "MWS Cup, 参加, チーム:人海戦術 Brilliant Diamond",
+  },
+  {
+    day: "2022/05/05",
+    name: "第17回情報危機管理コンテスト, 二次予選参加, チーム:ITSawakaya",
+  },
 ];
 
 export default activityList;
