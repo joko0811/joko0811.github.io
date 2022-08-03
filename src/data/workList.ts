@@ -45,6 +45,14 @@ const workList: MediaCardProps[] = [
     description: "[開発中] Webサイトのリーディングリストです",
     tips: ["Go", "React"],
   },
+  {
+    imagePath: "profile.jpg",
+    imageHeight: 160,
+    cardWidth: 345,
+    title: "tmstmp",
+    description: "[開発中] 打刻を行うコマンドラインツールです",
+    tips: ["Go"],
+  },
 ];
 
 export default workList;
