@@ -16,7 +16,7 @@ const workList: MediaCardProps[] = [
     cardWidth: 345,
     title: "VR Speed Run",
     description:
-      "体を動かして仮想上の街を走るVRゲームです \n https://github.com/soupro-vimmer/VRSpeedRun",
+      "体を動かして仮想上の街を走るVRゲームです \n https://github.com/joko0811/tmstmp",
     tips: ["C#", "Unity"],
   },
   {
