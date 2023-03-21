@@ -61,6 +61,14 @@ const activityList: Activity[] = [
     day: "2022/05/05",
     name: "第17回情報危機管理コンテスト, 二次予選参加, チーム:ITSawakaya",
   },
+  {
+    day: "2022/09/01",
+    name: "日本経済新聞社様, インターン参加",
+  },
+  {
+    day: "2022/10/26",
+    name: "PWS Cup, 総合三位, チーム:ぷにぷにの星",
+  },
 ];
 
 export default activityList;
