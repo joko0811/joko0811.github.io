@@ -41,6 +41,15 @@ const workList: MediaCardProps[] = [
     imagePath: "profile.jpg",
     imageHeight: 160,
     cardWidth: 345,
+    title: "yarare-app",
+    description:
+      "危機管理コンテスト 練習問題 \n https://github.com/joko0811/yarare-app",
+    tips: ["PHP", "apache"],
+  },
+  {
+    imagePath: "profile.jpg",
+    imageHeight: 160,
+    cardWidth: 345,
     title: "QueueuQ",
     description: "[開発中] Webサイトのリーディングリストです",
     tips: ["Go", "React"],
