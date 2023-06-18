@@ -69,6 +69,14 @@ const activityList: Activity[] = [
     day: "2022/10/26",
     name: "PWS Cup, 総合三位, チーム:ぷにぷにの星",
   },
+  {
+    day: "2023/05/08",
+    name: "第18回情報危機管理コンテスト, 二次予選参加, チーム:ITSawakayaB",
+  },
+  {
+    day: "2023/06/05",
+    name: "The Unconstrained Ear Recognition Challenge（UERC）2023, 結果待ち, 研究室としての参加",
+  },
 ];
 
 export default activityList;
