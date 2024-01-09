@@ -5,7 +5,7 @@ import workList from "../../data/workList";
 
 const Works = () => (
   <Grid container spacing={2} sx={{ py: 5 }}>
-    {workList.map((work) => (
+    {workList.reverse().map((work) => (
       <Grid item key={work.title}>
         <MediaCard mediaCard={work} />
       </Grid>
