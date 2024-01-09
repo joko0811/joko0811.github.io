@@ -74,10 +74,6 @@ const activityList: Activity[] = [
     name: "第18回情報危機管理コンテスト, 二次予選参加, チーム:ITSawakayaB",
   },
   {
-    day: "2023/06/05",
-    name: "The Unconstrained Ear Recognition Challenge（UERC）2023, モデル名：MEM-EAR, 1位",
-  },
-  {
     day: "2023/09/27",
     name: "The Unconstrained Ear Recognition Challenge（UERC）2023, モデル名：MEM-EAR, 1位",
   },
@@ -85,6 +81,6 @@ const activityList: Activity[] = [
     day: "2023/12/08",
     name: "RECRUIT Internship for Engineers, Data Specialists 2023 エンジニアコース, 参加",
   },
-];
+].reverse();
 
 export default activityList;
