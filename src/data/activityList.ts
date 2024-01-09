@@ -75,7 +75,15 @@ const activityList: Activity[] = [
   },
   {
     day: "2023/06/05",
-    name: "The Unconstrained Ear Recognition Challenge（UERC）2023, 結果待ち, 研究室としての参加",
+    name: "The Unconstrained Ear Recognition Challenge（UERC）2023, モデル名：MEM-EAR, 1位",
+  },
+  {
+    day: "2023/09/27",
+    name: "The Unconstrained Ear Recognition Challenge（UERC）2023, モデル名：MEM-EAR, 1位",
+  },
+  {
+    day: "2023/09/27",
+    name: "RECRUIT Internship for Engineers, Data Specialists 2023 エンジニアコース, 参加",
   },
 ];
 
