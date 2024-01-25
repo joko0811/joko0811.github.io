@@ -70,11 +70,11 @@ const activityList: Activity[] = [
     name: "PWS Cup, 総合三位, チーム:ぷにぷにの星",
   },
   {
-    day: "2023/3/31",
+    day: "2023/03/31",
     name: "静岡大学情報学部情報科学科, 卒業",
   },
   {
-    day: "2023/4/1",
+    day: "2023/04/01",
     name: "静岡大学大学院総合科学技術研究科情報学専攻, 入学",
   },
   {
@@ -90,7 +90,7 @@ const activityList: Activity[] = [
     name: "The Unconstrained Ear Recognition Challenge（UERC）2023, モデル名：MEM-EAR, 1位",
   },
   {
-    day: "2023/11/1",
+    day: "2023/11/01",
     name: "PWS Cup, 参加, チーム: Guardians of Privacy vol.23",
   },
   {
