@@ -47,11 +47,11 @@ const activityList: Activity[] = [
   },
   {
     day: "2021/08/16",
-    name: "株式会社Finatext様, インターン参加",
+    name: "株式会社Finatext サマーインターン, 参加",
   },
   {
     day: "2021/09/06",
-    name: "ココネ株式会社様, インターン参加",
+    name: "ココネ株式会社 エンジニアインターン, 参加",
   },
   {
     day: "2021/10/26",
@@ -63,19 +63,39 @@ const activityList: Activity[] = [
   },
   {
     day: "2022/09/01",
-    name: "日本経済新聞社様, インターン参加",
+    name: "日本経済新聞社 長期インターン, 参加",
   },
   {
     day: "2022/10/26",
     name: "PWS Cup, 総合三位, チーム:ぷにぷにの星",
   },
   {
+    day: "2023/3/31",
+    name: "静岡大学情報学部情報科学科, 卒業",
+  },
+  {
+    day: "2023/4/1",
+    name: "静岡大学大学院総合科学技術研究科情報学専攻, 入学",
+  },
+  {
     day: "2023/05/08",
     name: "第18回情報危機管理コンテスト, 二次予選参加, チーム:ITSawakayaB",
   },
   {
+    day: "2023/08/17",
+    name: "株式会社Speee エンジニア職立ち上げインターン, 参加",
+  },
+  {
     day: "2023/09/27",
     name: "The Unconstrained Ear Recognition Challenge（UERC）2023, モデル名：MEM-EAR, 1位",
+  },
+  {
+    day: "2023/11/1",
+    name: "PWS Cup, 参加, チーム: Guardians of Privacy vol.23",
+  },
+  {
+    day: "2023/11/21",
+    name: "Symposium on Biometrics, Recognition and Authentication（SBRA）2023, 筆頭著者・発表者参加, OS1-2 検出妨害対象の位置にロバストな敵対的パッチの検討"
   },
   {
     day: "2023/12/08",
