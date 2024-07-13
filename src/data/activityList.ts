@@ -95,11 +95,19 @@ const activityList: Activity[] = [
   },
   {
     day: "2023/11/21",
-    name: "Symposium on Biometrics, Recognition and Authentication（SBRA）2023, 筆頭著者・発表者参加, OS1-2 検出妨害対象の位置にロバストな敵対的パッチの検討"
+    name: "Symposium on Biometrics, Recognition and Authentication（SBRA）2023, 筆頭著者・発表者参加, OS1-2 検出妨害対象の位置にロバストな敵対的パッチの検討",
   },
   {
     day: "2023/12/08",
     name: "RECRUIT Internship for Engineers, Data Specialists 2023 エンジニアコース, 参加",
+  },
+  {
+    day: "2024/03/22",
+    name: "令和5年度 静岡大学 学長表彰",
+  },
+  {
+    day: "2024/07/06",
+    name: "第19回情報危機管理コンテスト, 文部科学大臣賞 みずほリサーチ＆テクノロジーズ賞, チーム: itsawayaka",
   },
 ].reverse();
 
