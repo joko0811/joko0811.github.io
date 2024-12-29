@@ -119,7 +119,7 @@ const activityList: Activity[] = [
   },
   {
     day: "2024/12/11",
-    name: "Symposium on Biometrics, Recognition and Authentication（SBRA）2024, 筆頭著者・発表者参加・<strong>SBRA優秀発表章受賞</strong>, OS2-04 顔検出器を攻撃対象としたRemote Adversarial Patchの検討：偽陽性増加効率向上を目的とした損失関数の改善",
+    name: "Symposium on Biometrics, Recognition and Authentication（SBRA）2024, 筆頭著者・発表者参加・SBRA優秀発表章受賞, OS2-04 顔検出器を攻撃対象としたRemote Adversarial Patchの検討：偽陽性増加効率向上を目的とした損失関数の改善",
   },
 ].reverse();
 
