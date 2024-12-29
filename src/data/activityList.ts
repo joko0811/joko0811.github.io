@@ -109,6 +109,18 @@ const activityList: Activity[] = [
     day: "2024/07/06",
     name: "第19回情報危機管理コンテスト, 文部科学大臣賞 みずほリサーチ＆テクノロジーズ賞, チーム: itsawayaka",
   },
+  {
+    day: "2024/10/23",
+    name: "Computer Security Symposium (CSS) 2024, 筆頭著者・発表者参加, 2G1-2 顔検出器を攻撃対象としたRemote Adversarial Patchの検討",
+  },
+  {
+    day: "2024/12/05",
+    name: "Asia-Pacific Signal and Information Processing Association (APSIPA) 2024, 筆頭著者・発表者参加, Enhancing Remote Adversarial Patch Attacks on Face Detectors with Tiling and Scaling",
+  },
+  {
+    day: "2024/12/11",
+    name: "Symposium on Biometrics, Recognition and Authentication（SBRA）2024, 筆頭著者・発表者参加・<strong>SBRA優秀発表章受賞</strong>, OS2-04 顔検出器を攻撃対象としたRemote Adversarial Patchの検討：偽陽性増加効率向上を目的とした損失関数の改善",
+  },
 ].reverse();
 
 export default activityList;
